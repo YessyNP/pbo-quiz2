@@ -14,15 +14,15 @@ public class ComboItems {
 private HashMap<String , Float> itemses = new HashMap<>() ;
     
     public ComboItems() {
-        this.itemses.put("Gula" , new Float(30000)) ;
-        this.itemses.put("Kopi" , new Float(10000)) ;
+        this.itemses.put("Kopi" , new Float(30000)) ;
+        this.itemses.put("Gula" , new Float(10000)) ;
         this.itemses.put("Susu" , new Float(20000)) ;
         this.itemses.put("Es Teh" , new Float(15000)) ;
         this.itemses.put("Matcha" , new Float(19000)) ;
         
     }
     
-    public ArrayList <String> getSemuaNama () {
+    public ArrayList <String> getJenisNama () {
         ArrayList<String> str = new ArrayList<> () ;
         for (String item : this.itemses.keySet()) {
             str.add(item) ;
